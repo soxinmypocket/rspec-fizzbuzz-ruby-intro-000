@@ -1,13 +1,6 @@
 require_relative './spec_helper.rb'
-require_relative '../fizzbuzz.rb'
-# We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
-def fizzbuzz(int)
-  if int % 3 == 0
-    return "Fizz"
-  end
-end
 
-end
+# We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
