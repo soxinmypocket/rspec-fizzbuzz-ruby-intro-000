@@ -5,8 +5,8 @@ def fizzbuzz(int)
   if int % 3 == 0
     "Fizz"
   end
-ends
-  
+end
+
 end
 
 describe "fizzbuzz" do
